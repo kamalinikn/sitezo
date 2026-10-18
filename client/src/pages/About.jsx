@@ -7,9 +7,7 @@ export default function About() {
       <div className="card big"><span className="badge">Our mission</span><h2>To make professional digital experiences more accessible to businesses.</h2></div>
       <div className="card big"><span className="badge">Our vision</span><h2>A world where every ambitious business can be discovered, understood and remembered online.</h2></div></div>
       <div className="grid g4">{VALUES.map(([t, d]) => <div className="card" key={t}><h3>{t}</h3><p>{d}</p></div>)}</div></section>
-    <section className="sec soft"><div className="wrap fnd">
-      {/* Replace with a real photo: put founder.jpg in client/public and use <img src="/founder.jpg" alt="Kamalini Khanna R" /> */}
-      <div className="por" role="img" aria-label="Founder portrait placeholder"><span>Founder photo</span></div>
+    <section className="sec soft"><div className="wrap">
       <div><span className="badge">Meet the founder</span><h2>Kamalini Khanna R</h2><p className="role">Founder — SITEZO</p>
         <p className="lead">Kamalini started SITEZO to bring together entrepreneurship, technology and design — building digital solutions that help businesses present themselves clearly, earn trust and move forward.</p></div></div></section>
   </>);
